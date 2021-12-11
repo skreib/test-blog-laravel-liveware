@@ -21,7 +21,6 @@ class CreateCommentsTable extends Migration
             $table->string('attachment')->nullable();
             $table->timestamp('created_at')->nullable()->useCurrent();
             $table->timestamp('updated_at')->nullable();
-            $table->timestamps();
         });
     }
 
